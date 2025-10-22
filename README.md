@@ -1,4 +1,4 @@
-# Default-Module-Template# Module Name
+# Module Name
 
 ## Overview
 - Brief purpose and key responsibilities of the module.
