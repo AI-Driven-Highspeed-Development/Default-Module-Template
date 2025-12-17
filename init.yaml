@@ -1,0 +1,25 @@
+# Module init.yaml - populated by module_creator
+# Fields below are placeholders; actual values set during creation
+
+version: "0.0.1"
+type: ""  # core/manager/util/plugin/mcp
+# repo_url: ""  # Set when pushing to GitHub
+# requirements: []  # ADHD module dependencies
+
+# Optional: Testing scope for HyperRed adversarial testing
+# Uncomment and configure as needed:
+# testing:
+#   has_tests: true
+#   scope:
+#     platforms:
+#       - linux
+#       - macos
+#     python_versions:
+#       - "3.10"
+#       - "3.11"
+#       - "3.12"
+#     threat_model: internal  # internal | external | adversarial
+#     input_assumptions:
+#       - "Inputs are from trusted internal sources"
+#     out_of_scope:
+#       - "Cross-platform compatibility"

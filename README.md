@@ -13,5 +13,28 @@
 - CLI or API commands if applicable.
 
 ## Module Structure
-- File/folder layout with short explanations.
-- Notable helper utilities or scripts.
+
+```
+<module_name>/
+├── __init__.py          # Module exports
+├── init.yaml            # Module metadata & testing scope
+├── README.md            # This file
+├── requirements.txt     # PyPI dependencies (optional)
+├── tests/               # Unit tests (optional)
+│   ├── __init__.py
+│   └── README.md
+└── playground/          # Interactive exploration (optional)
+    ├── README.md
+    └── demo.py
+```
+
+## Testing
+
+### Unit Tests (Optional)
+```bash
+pytest <module_type>/<module_name>/tests/
+```
+
+### Adversarial Testing
+HyperRed will attack this module based on `testing.scope` in `init.yaml`.
+Configure threat_model: `internal` | `external` | `adversarial`
